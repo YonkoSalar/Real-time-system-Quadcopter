@@ -1,0 +1,6 @@
+DroneController
+RX	RX	3	SLIDER	Z Axis	0	1.0	0.05
+RY	RY	3	SLIDER	Z Rotation	0	1.0	0.05
+LX	LX	3	SLIDER	X Axis	0	1.0	0.05
+LY	LY	3	SLIDER	Y Axis	0	1.0	0.05
+X_BUTTON	X_BUTTON	1	BUTTON	Button 1	0	0.0	0.0
