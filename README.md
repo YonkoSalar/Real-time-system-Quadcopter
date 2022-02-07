@@ -1,8 +1,7 @@
-# Quadcopter
+# Real-Time Systems Quadcopter
 This project was made in the course Real-time systems, where the entire quadcopter was made from the scratch including the PID controller for stabilization of quadcopter.
 
 
-# Project Details
 ## Components needed to build the drone
 For this project we had to buy some components that were compatible with each other to make the quadcopter drone. The project main focus is to make use of the Arduino nano sense 33 BLE to make a real-time system. So Arduino will be our control unit for our entire system.
 
@@ -35,14 +34,17 @@ To support longer range communication a HC-12 433 Hz wireless radio transmitter 
 To control the speed of each motor is done by using the joysticks on PlayStation 4 controller. To make this functional we had to use a second Arduino to communicate with Arduino nano sense 33 BLE by connecting two HC-12 module. The HC-12 is a wireless transceiver that can both transmit and receive serial information. By sending different values we can easy manipulate the roll, yaw and pitch of the quadcopter drone.
 
 
-![](./img/ps4_controller.png)
+<img src="./img/ps4_controller.png" width="250">
+
 
 
 First process was to configure the controller to send the data we needed to the Arduino nano, this was done using a software called "Processing". Proccesing is open source graphical library and IDE used for art and visual design, and uses java as programming language. In processing we used a library called "Game Control Plus", and this lobar enables us to sketch out how we want the drone to be controlled by using the joysticks. The second library we used to send the serial data was the serial library that the software processing provided. This library reads and writes data to and from external devices one byte at a time. This allows both Arduinos to send and receive data, and can also communicate with microcontroller devices. The serial port exist in all computer and can be emulated through USB.
 
 # Result
 The final result of the quadcopter was not optimal in terms of design, but the main goal for this project was to make somehting that could react in real-time where we focused most  the time
-![](./img/final_drone.jpg)\ ![](./img/test.png)
+
+<img src="./img/test.png" width="250">
+
 
 
 
