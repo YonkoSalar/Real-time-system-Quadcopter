@@ -34,7 +34,11 @@ To support longer range communication a HC-12 433 Hz wireless radio transmitter 
 To control the speed of each motor is done by using the joysticks on PlayStation 4 controller. To make this functional we had to use a second Arduino to communicate with Arduino nano sense 33 BLE by connecting two HC-12 module. The HC-12 is a wireless transceiver that can both transmit and receive serial information. By sending different values we can easy manipulate the roll, yaw and pitch of the quadcopter drone.
 
 
+
+<div style="text-align:center">
 <img src="./img/ps4_controller.png" width="250">
+
+</div>
 
 
 
@@ -43,8 +47,8 @@ First process was to configure the controller to send the data we needed to the 
 # Result
 The final result of the quadcopter was not optimal in terms of design, but the main goal for this project was to make somehting that could react in real-time where we focused most  the time
 
-<img src="./img/test.png" width="250">
 
+<div style="text-align:center">
+<img src="./img/test.png" width="400">
 
-
-
+</div>
